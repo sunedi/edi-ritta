@@ -1,0 +1,14 @@
+@media screen and (min-width: 780px) {
+ body {
+   background-color: lightgreen;
+ }
+}
+
+#navbar {
+ display: flex;
+}
+
+.nav-link {
+ margin: 5px;
+ padding: 5px;
+}
