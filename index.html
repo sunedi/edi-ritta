@@ -6,22 +6,37 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
     section { height: 100vh; }
+    @media screen and (min-width: 780px) {
+     body {
+       background-color: lightgreen;
+     }
+    }
+
+    #navbar {
+     display: flex;
+    }
+
+    .nav-link {
+     margin: 5px;
+     padding: 5px;
+    }
+
   </style>
   </head>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <p>Hello World, we are software developers!</p>
-    <nav id="navbar" overflow-x: hidden;> 
+    <nav id="navbar" overflow-x: hidden;>
       <ul>
-        <li><a href="#welcome-section">Welcome</a></li>
-        <li><a href="#projects">Project </a></li>
+        <li><a href="#welcome-section" class="nav-link">Welcome</a></li>
+        <li><a href="#projects" class="nav-link">Project </a></li>
       </ul>
     </nav>
 
-    <section id="welcome-section" name="welcome-section"> 
+    <section id="welcome-section" name="welcome-section">
       <div>
-        <h1> Welcome this is my personal portfolio page!</h1> 
+        <h1> Welcome this is my personal portfolio page!</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       </div>
     </section>
